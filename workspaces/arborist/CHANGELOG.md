@@ -1,5 +1,13 @@
 # Changelog
 
+## [9.0.0-pre](https://github.com/npm/cli/compare/arborist-v8.0.0...arborist-v9.0.0-pre) (2024-11-14)
+### ⚠️ BREAKING CHANGES
+* @npmcli/arborist now supports node `^20.17.0 || >=22.9.0`
+### Bug Fixes
+* [`3ffc08b`](https://github.com/npm/cli/commit/3ffc08bc848ed262ab95e37593c8c058fd633caa) [#7831](https://github.com/npm/cli/pull/7831) for @npmcli/arborist sets node engine range to `^20.17.0 || >=22.9.0` (@reggi)
+### Dependencies
+* [`75a3f12`](https://github.com/npm/cli/commit/75a3f1228865f426d8790be27f1258e501f2c450) [#7859](https://github.com/npm/cli/pull/7859) remove unused deps (#7859)
+
 ## [8.0.0](https://github.com/npm/cli/compare/arborist-v7.5.4...arborist-v8.0.0) (2024-10-03)
 ### ⚠️ BREAKING CHANGES
 * `@npmcli/arborist` now supports node `^18.17.0 || >=20.5.0`
